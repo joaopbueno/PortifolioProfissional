@@ -12,8 +12,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled/>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled/>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled/>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled/>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled/>
+    <link rel="stylesheet" href="css/style-switcher.css">
   </head>
-  <body>
+  <body class="dark">
     <!-- Main Container Start -->
     <div class="main-container">
       <!-- Aside Start -->
@@ -26,33 +33,33 @@
         </div>
         <ul class="nav">
           <li>
-            <a href="#" class="active">
+            <a href="#home" class="active">
               <i class="fa fa-home"> </i>
               Home
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#about">
               <i class="fa fa-user"> </i>
-              About
+              Sobre
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="hidden">
+            <a href="#service">
               <i class="fa fa-list"> </i>
-              Servies
+              Serviços
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#portifolio">
               <i class="fa fa-briefcase"> </i>
               Portifolio
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#contact">
               <i class="fa fa-comments"> </i>
-              Contact
+              Contato
             </a>
           </li>
         </ul>
@@ -62,7 +69,7 @@
       <!-- Main Content Start -->
       <div class="main-content">
         <!-- Home Section Start-->
-        <section class="home section ">
+        <section class="home section " id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
@@ -70,11 +77,10 @@
                   Olá, meu nome é <span class="name">João Bueno</span>
                 </h3>
                 <h3 class="my-profission">
-                  Eu sou um <span class="typing">desenvolvedor full-stack</span>
+                  Eu sou um <span class="typing">desenvolvedor Full Stack</span>
                 </h3>
                 <p>
-                  descrição de quem eu sou e minhas atividades profissionais (Um
-                  resumo de quem sou profissionalmente)
+                  Sou estudante de Sistemas de Informação na PUC-Minas e atualmente estou no 5° perído. Estou fazendo estágio como desenvolvedor full stack no Grupo Otimiza, mas tenho foco no Desenvolvimento Web.
                 </p>
                 <a href="#contact" class="btn hire-me">Eu</a>
               </div>
@@ -87,7 +93,7 @@
         <!-- Home Section End -->
 
         <!-- About Section Start -->
-        <section class="about section ">
+        <section class="about section " id="about">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -99,18 +105,13 @@
                 <div class="row">
                   <div class="about-text padd-15">
                     <h3>
-                      Eu sou o João e
-                      <span>Web desenvolvedor</span>
+                      Eu sou 
+                      <span> Desenvolvedor Web</span>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Quam, quibusdam. Nemo praesentium quia corrupti
-                      consequuntur veniam quas similique recusandae, sint
-                      tempore natus eum veritatis omnis culpa est obcaecati
-                      iusto molestiae voluptatem maiores quis. Esse, omnis
-                      architecto! Soluta, praesentium, excepturi fuga explicabo
-                      sed, magnam similique nostrum voluptatibus ducimus
-                      corporis deserunt labore vel iure facere beatae cum!
+                      Atualmente estou estudando tecnologias de desenvolviento front-end, como React e Angular, além e HTML, CSS e JavaScript. 
+                      Estou sempre buscando evoluir e aprender mais sobre esses frameworks através de criação de projetos e estudos independentes, tudo isso alinhado com a minha esperiência profissional que venheo adquirindo.          
+                      Além das linguágens e frameworks front-end, também tenho conhecimento em liguagens como C# e Python e banco de dados SQL.            
                     </p>
                   </div>
                 </div>
@@ -124,13 +125,13 @@
                         <p>Idade : <span>24</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Website : <span>COLAR O GIT AQUI</span></p>
+                        <p>Website : <span><a href="https://github.com/joaopbueno" target="_blank">https://github.com/joaopbueno</a></span></p>
                       </div>
                       <div class="info-item padd-15">
                         <p>Email : <span>mrjoao16@gmail.com</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Degree : <span>CS</span></p>
+                        <p>Degree : <span>JR</span></p>
                       </div>
                       <div class="info-item padd-15">
                         <p>Telefone : <span>+55 31 971777891</span></p>
@@ -139,7 +140,7 @@
                         <p>Cidade : <span>Belo Horizonte</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Freelance: <span>Available</span></p>
+                        <p>Freelance: <span>Não</span></p>
                       </div>
                     </div>
                     <div class="row">
@@ -152,31 +153,31 @@
                   <div class="skills padd-15">
                     <div class="row">
                       <div class="skill-item padd-15">
-                        <h5>CSS</h5>
+                        <h5>HTML</h5>
                         <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
                         </div>
                       </div>
                       <div class="skill-item padd-15">
                         <h5>CSS</h5>
                         <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
                         </div>
                       </div>
                       <div class="skill-item padd-15">
-                        <h5>CSS</h5>
+                        <h5>JavaScript</h5>
                         <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
+                          <div class="progress-in" style="width: 75%"></div>
+                          <div class="skill-percent">75%</div>
                         </div>
                       </div>
                       <div class="skill-item padd-15">
-                        <h5>CSS</h5>
+                        <h5>TypeScript</h5>
                         <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
                         </div>
                       </div>
                     </div>
@@ -192,20 +193,30 @@
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2016 - 2017
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Computer Science
+                              Técnico em Estradas
                             </h4>
                             <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Fugit, quod mollitia iure doloremque sit
-                              eligendi corrupti adipisci nihil officia ipsum
-                              ratione, illo nisi unde eos commodi.
+                              Sou formado em técnico em estradas pelo CEFET-MG, não cheguei a ter esperiência profissional na área.
                             </p>
                           </div>
                           <!-- TIMELINE ITEM -->
                           <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2021 - 2024
+                            </h3>
+                            <h4 class="timeline-title">
+                              Sistemas de Informação
+                            </h4>
+                            <p class="timeline-text">
+                              Estou cursando o curso de Sistemas de Informação na PUC-Minas, atualmente no 5° período, com a previsão de de termino para dezembro de 2024
+                            </p>
+                          </div>
+                          <!-- TIMELINE ITEM -->
+                          <!-- <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i>2013 - 2015
@@ -219,23 +230,7 @@
                               eligendi corrupti adipisci nihil officia ipsum
                               ratione, illo nisi unde eos commodi.
                             </p>
-                          </div>
-                          <!-- TIMELINE ITEM -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
-                            </h3>
-                            <h4 class="timeline-title">
-                              Master in Computer Science
-                            </h4>
-                            <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Fugit, quod mollitia iure doloremque sit
-                              eligendi corrupti adipisci nihil officia ipsum
-                              ratione, illo nisi unde eos commodi.
-                            </p>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
@@ -249,48 +244,40 @@
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2018 - 2019
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Computer Science
+                              Jovem Aprendiz
                             </h4>
                             <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Fugit, quod mollitia iure doloremque sit
-                              eligendi corrupti adipisci nihil officia ipsum
-                              ratione, illo nisi unde eos commodi.
+                              Trabalhei como aprendiz no setor de compras da Rima Industrial S/A, realizava atividades administrativas e de rotinas de escritório.
                             </p>
                           </div>
                           <!-- TIMELINE ITEM -->
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2021 - 2022
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Computer Science
+                              Assistente administrativo
                             </h4>
                             <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Fugit, quod mollitia iure doloremque sit
-                              eligendi corrupti adipisci nihil officia ipsum
-                              ratione, illo nisi unde eos commodi.
+                              Tranbalhei como assistente administrativo na prefeitura de Contagem como concursado, realizava tarefas administrativas e rotinas de escritorio, além de auxílio em atividades de contabilidade.
                             </p>
                           </div>
                           <!-- TIMELINE ITEM -->
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2022 
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Computer Science
+                              Estágio de Desenvolvimento Full Stack
                             </h4>
                             <p class="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Fugit, quod mollitia iure doloremque sit
-                              eligendi corrupti adipisci nihil officia ipsum
-                              ratione, illo nisi unde eos commodi.
+                              Atualmente trabalho no Grupo Otimiza como estagiário de desenvolviento full stack, realizo manutenção em sistemas e criação de APIs, além de scripts para banco de dados.
+                              Para a realização destas tarefas trabalho com Angular, TypeScript, C# e SQLServer.
                             </p>
                           </div>
                         </div>
@@ -305,7 +292,7 @@
         <!-- About Section End -->
 
         <!-- Services Section Start -->
-        <section class="service section ">
+        <section class="service section hidden" id="service">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -386,7 +373,7 @@
         <!-- Services Section End -->
 
         <!-- Portifolio Start -->
-        <section class="portifolio section ">
+        <section class="portifolio section " id="portifolio">
           <div class="row">
             <div class="section-title padd-15">
               <h2>Portifolio</h2>
@@ -394,7 +381,7 @@
           </div>
 
           <div class="row">
-            <div class="portifolio-heading">
+            <div class="portifolio-heading padd-15">
               <h2>Meus ultimos projetos</h2>
             </div>
           </div>
@@ -459,47 +446,47 @@
         <!-- Portifolio End -->
 
         <!-- Contact Start -->
-        <section class="contact section">
+        <section class="contact section" id="contact">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
                 <h2>Contato</h2>
               </div>
             </div>
-            <h3 class="contact-title padd-15">Have you any questions ?</h3>
-            <h4 class="contact-sub-title padd-15">I'M AT YOR SERVICES</h4>
+            <h3 class="contact-title padd-15">Tem alguma duvida ?</h3>
+            <h4 class="contact-sub-title padd-15">Entre em contato</h4>
             <div class="row">
               <!-- Contact Item start-->
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-phone"></i></div>
-                <h4>call us on</h4>
-                <p>99999999999</p>
+                <h4>Telefone</h4>
+                <p>+55 (31) 9 7177-7891</p>
               </div>
               <!-- Contact item End -->
                <!-- Contact Item start-->
                <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                <h4>call us on</h4>
-                <p>99999999999</p>
+                <h4>Local</h4>
+                <p>Belo Horizonte - MG</p>
               </div>
               <!-- Contact item End -->
                <!-- Contact Item start-->
                <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-envelope"></i></div>
-                <h4>call us on</h4>
-                <p>99999999999</p>
+                <h4>Email Pessoal</h4>
+                <p>mrjoao16@gmail.com</p>
               </div>
               <!-- Contact item End -->
                <!-- Contact Item start-->
                <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                <h4>call us on</h4>
-                <p>99999999999</p>
+                <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                <h4>Linkedin</h4>
+                <p><a href="https://www.linkedin.com/in/joao-paulo-bueno-1b33ab1a6/" target="_blank">João Paulo Bueno</a></p>
               </div>
               <!-- Contact item End -->
             </div>
-            <h3 class="contact-title padd-15">Send ME AN EMAIL</h3>
-            <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+            <h3 class="contact-title padd-15">Entre em contato através do meu email</h3>
+            <h4 class="contact-sub-title padd-15">Estou sempre respondendo os emails</h4>
             <!-- Contact Form -->
 
             <div class="row">
@@ -545,9 +532,30 @@
         <!-- Contact End -->
       </div>
       <!-- Main Content End -->
+
+      <!--  Style Switcher Start -->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class="fas fa-cog fa-spin"></i>
+        </div> 
+        <div class="day-night s-icon">
+          <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+          <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+          <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+          <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+          <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+      </div>
+      <!--  Style Switcher End -->
+
     </div>
     <!-- Mains Container End -->
 
     <link rel="stylesheet" href="js/script.js" />
+    <script src="js/style-switcher.js"></script>
   </body>
 </html>
